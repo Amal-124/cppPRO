@@ -11,14 +11,14 @@ int main(){
     int i=0;
     cout << "Enter word ";
     cin >> word ;
-	int len =strlen(word);	//
+	int len =strlen(word);	//the word that is pointed by the address "word"
     while(ispalindrome == true && i<= len/2) 
 	{
     	
     	if(*(word+i)!= *(word+len -1-i)){ //! means its diff
     		ispalindrome = false;
 		}
-		else i++; //continue to increase i 
+		else i++; //continue to increase i which is the index
 	}
     if(ispalindrome == true)
     	cout<<"The word "<< word << " is a palindrome ";
