@@ -11,7 +11,7 @@ int main(){
     int i=0;
     cout << "Enter word ";
     cin >> word ;
-	int len =strlen(word);	
+	int len =strlen(word);	//
     while(ispalindrome == true && i<= len/2) 
 	{
     	
