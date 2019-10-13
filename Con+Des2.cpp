@@ -17,7 +17,11 @@ private:
 	double gpa;
 
 };
-stud
+student::student(int ID)
+{
+id =ID;	
+}
+double Line::getlength(void){ return length;}
 int main(){
 	Line l;
 	l.setlength(6.0);
